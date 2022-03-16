@@ -124,7 +124,6 @@ img,
 }
 
 .secao {
-	height: 100vh;
 	position: relative;
 	margin: 10px auto;
 }
@@ -178,7 +177,6 @@ img,
 }
 
 .galeria {
-	position: absolute;
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 33.3% 33.3% 33.3%;
