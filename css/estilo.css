@@ -124,6 +124,7 @@ img,
 }
 
 .secao {
+	height: 100vh;
 	position: relative;
 	margin: 10px auto;
 }
@@ -219,7 +220,4 @@ img,
 	cursor: pointer;
 	user-select: none;
 	margin-left: 80vw;
-}
-.video {
-	text-align: center;
 }
