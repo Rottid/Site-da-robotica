@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link href="css/estilo.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+        <link rel="apple-touch-icon" href="favicon/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+        <title><Robótica/></title>
+    </head>
+    <body>
+        <nav class="menu" id="menu"> <!--Menu-->
+            <ul>
+                <li class="mobile"><a href="javascript:void(0)" onclick="scroll(menu)">Robótica</a></li>
+                <li class="mobile"><a href="javascript:void(0)" onclick="openNav()">&#9776;</a></li> <!--Hamburguinho-->
+            </ul>
+        </nav>
+        <div id="sidebar" class="sidenav"> <!--Hamburguinho-->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="itens" id="itens">
+                <a href="#video" onclick="Scroll(0)">Apresentação</a>
+                <a href="#sobre" onclick="Scroll(1)">Sobre</a>
+                <a href="#projetos" onclick="Scroll(2)">Projetos</a>
+                <a href="#galeria" onclick="Scroll(3)">Galeria</a>
+                <a href="javascript:void(0)">Contatos</a>
+            </div>
+        </div>
+        <div class="conteudo" id="conteudo" onclick="closeNav()"> <!--Conteudo-->
+            <div id="Robotica" class="secao" data-aos="fade-right" > <!--Primeira parte do site-->
+                <img class="rato" id="rato" src="img/RATO_PNG_small.png">
+                <img class="nomeRobotica" id="nomeRobotica" src="img/logo_robotica_branco.png">
+            </div>
+            <div class="secao" data-aos="zoom-in" id="video"> <!--Video da Robótica-->
+                <video width="100%" height="100%" controls>
+                    <source src="videos/Robotica 2020.mp4" type="video/mp4"/>
+                </video>
+            </div>
+            <div class="secao" id="sobre"> <!--Sobre-->
+                <h1 class="tituloSobre">Sobre</h1>
+                <h3 class="textoSobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet tristique dui, sed venenatis massa. Vivamus aliquet tellus non libero dictum, bibendum sagittis massa tincidunt. Nulla congue consectetur bibendum. Quisque a enim aliquet, finibus nulla at, cursus erat. Vivamus non egestas turpis. Pellentesque vel dapibus ex. Vivamus at vulputate nisl. Pellentesque sagittis purus non massa gravida imperdiet. Maecenas mauris ipsum, luctus non rutrum a, pharetra eleifend dui.</h3>
+            </div>
+            <div class="secao" id="projetos"> <!--Projetos-->
+                <div class="projeto"> <!--Paw finder-->
+                    <img class="imgProjeto" src="img/pawfinder.png">
+                    <div class="textoProjeto"> <!--Descrição-->
+                        <h1 class="tituloProjeto">Paw Finder</h1>
+                        <p class="descricaoProjeto">Um site para ajudar na busca por animais de estimação desaparecidos.</p>
+                    </div>
+                </div>
+                <div class="projeto"> <!--Jogo da Velha-->
+                    <div class="textoProjeto"><!--Descrição-->
+                        <h1 class="tituloProjeto">Jogo da Velha</h1>
+                        <p class="descricaoProjeto">Um jogo da velha tradicional com placar para registrar a pontuação dos jogadores.</p>
+                    </div>
+                    <img class="imgProjeto" src="img/velha.png">
+                </div>
+                <div class="projeto"> <!--Criador de monstros-->
+                    <img class="imgProjeto" src="img/monstros.png">
+                    <div class="textoProjeto">
+                        <h1 class="tituloProjeto">Criador de Monstros</h1>
+                        <p class="descricaoProjeto">Um site que cria monstros embaralhando os membros de outros pré-existentes. Com esse site é possível obter 625
+                        combinações visuais diferentes além de atributos de RPG aleatórios.</p>
+                    </div>
+                </div>
+                <div class="projeto"> <!--Criador de Botões-->
+                    <div class="textoProjeto">
+                        <h1 class="tituloProjeto">Criação de Botões</h1>
+                        <p class="descricaoProjeto">Projeto de aprendizado criado para selecionar uma quantidade de botões a serem gerados, gerá-los e, ao clicar em um
+                        desses botões, modificar a cor de fundo do site.</p>
+                    </div>
+                    <img class="imgProjeto" src="img/botoes.png">
+                </div>
+                <div class="botaoVerMais">Mais Projetos &#8594;</div>
+            </div>
+            <div class="secao"></div>
+            <div class="secao galeria" id="galeria"> <!--Galeria-->
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+                <img class="imagemGaleria" src="img/LOGO_PNG_small.png">
+            </div>
+        </div>
+        <script src="javascript/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            window.onload = function(event)
+            {
+                AOS.init();
+            };
+        </script>
+    </body>
+</html>
